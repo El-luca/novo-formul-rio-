@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+button {
+    border-radius: 5px;
+    width: 100px;
+    color: #2cdd99;
+    background-color: black;
+    
+}
+
+button:hover{
+    background-color: #2cdd99;
+    color: black;
+    transition-duration: 300ms;
+}
+
+input {
+    border-radius: 5px;
+    border-bottom: 2px solid #2cdd99;
+    border-right: 2px solid #2cdd99;
+    padding: 10px;
+}
+
+::placeholder{
+    color: #2cdd99;
+    opacity: 7;
+}
+
+.field{
+    color: black;
+    border-bottom-left-radius: 2px solid #2cdd99;
+    border: #2cdd99;
+}
+
+.imagem {
+    width: 200px;
+    border: 1px solid #2cdd99 ;
+}
+
+a{
+    color: #FFE6E6;
+}
+
+.box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
