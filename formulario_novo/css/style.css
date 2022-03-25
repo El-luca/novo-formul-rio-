@@ -1,0 +1,125 @@
+.back{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    min-width: 396px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 43px;
+  width: auto;
+  height: 43px;
+  color: #3f3d56;
+  margin-top: 68px;
+  margin-bottom: 22px;
+}
+
+.field {
+  padding-left: 14px;
+  color: #abb3a8;
+  border: 2px solid #abb3a8;
+  width: 396px;
+  height: 47px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+
+.name {
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+
+.date-country {
+  display: flex;
+  width: 412px;
+  height: 69px;
+  margin-bottom: 22px;
+}
+
+.date {
+  width: 170px;
+  height: 47px;
+}
+
+.box_pais {
+  margin-left: 32px;
+}
+
+.cowntry {
+  width: 208px;
+  height: 47px;
+}
+
+.box-sex {
+  display: flex;
+  justify-content: space-between;
+  width: 396px;
+  margin-bottom: 23px;
+}
+
+.genre {
+  margin-bottom: 8px;
+  width: 396px;
+}
+
+.password {
+  margin-bottom: 22px;
+}
+.confirm_password {
+  margin-bottom: 28px;
+}
+
+.e-mail {
+  margin-bottom: 22px;
+}
+
+.term {
+  display: flex;
+  width: 396px;
+  height: 34px;
+  margin-bottom: 28px;
+}
+
+a {
+  color: #1db9e0;
+}
+
+.check {
+  min-width: 18px;
+  min-height: 18px;
+  margin-right: 10px;
+}
+p {
+  color: #5a6256;
+}
+
+.enter {
+  width: 396px;
+  height: 47px;
+  border-radius: 5px;
+  background-color: #3f3d56;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.enter:hover {
+  background-color: #ffffff;
+  color: #3f3d56;
+  transition-duration: 300ms;
+}

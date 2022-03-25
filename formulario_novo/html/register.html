@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Roboto:wght@400;500;700 &family= Ubuntu:wght@400;500 & display=swap"
+        rel="stylesheet">
+    <title>Formulario</title>
+</head>
+
+<body class="back">
+    <form class="menu" action="">
+        <h1 class="title">Faça seu cadastro</h1>
+        <div class="info">
+            <label  for="">Nome Completo</label>
+            <input class="field name" type="text" placeholder="Digite seu nome completo" required name="name">
+        </div>
+        <div class="date-country">
+            <div class="info">
+                <label class="info" for="">Data de nascimento</label>
+                <input class=" date" type="date" required name="name">
+            </div>
+            <div class="box_pais">
+                <label class=" info" for=""> País</label>
+                <select class=" cowntry" name="" id="" title="" required name="name">
+                    <option selected disabled value>Selecionar</option>
+                    <option value="">Brasil</option>
+                    <option value="">Argentina</option>
+                    <option value="">Chile</option>
+                    <option value="">Uruguai</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <label for="genero" class="genre">Gênero:</label>
+        <div class="box-sex" type=text title="Preencha o campo Nome" required name=nome>
+            <div class="femi">
+                <input type="radio" name="radio" id="fem">
+                <label for="fem">feminino</label>
+            </div>
+            <div>
+                <input type="radio" name="radio" id="mas">
+                <label for="mas">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="radio" id="not">
+                <label for="not">Não Declarar</label>
+            </div>
+        </div>
+        </div>
+        <div class="info">
+            <label class="info name_e-mail" for="">Digite seu e-mail</label>
+            <input class="field e-mail" type="text" placeholder="E-mail" required name="name">
+        </div>
+        <div class="info">
+            <label class="password" for="password">Crie uma senha</label>
+            <input class="field password " type="password" placeholder="Senha" required name="name">
+        </div>
+        <div class="info">
+            <label class="info" for="">Confirme a senha</label>
+            <input class="field confirm_password" type="password" placeholder="Confirmar senha" required name="name">
+        </div>
+        <div class="term">
+            <input class="check" type="checkbox" name="" id="" required name="name">
+            <p>Aceito os <a href="eula.html">Termos e condições</a> e concordo com as <a href="eula.html">políticas de privacidade</a>do Hall To Code.</p>
+        </div>
+        <button class="enter">Cadastrar</button>
+        <p>Já tem uma conta no Hall To Code ? <a href="/html/index.html">Entre agora</a></p>
+    </form>
+</body>
+
+</html>
